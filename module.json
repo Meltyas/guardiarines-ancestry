@@ -1,0 +1,36 @@
+{
+  "id": "guardiarines-ancestry",
+  "title": "Guardiarines Ancestry",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "guardiarines-ancestry",
+      "label": "Guardiarines (Ancestry)",
+      "path": "packs/guardiarines-ancestry",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "daggerheart",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "daggerheart",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": ""
+}
