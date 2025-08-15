@@ -21,6 +21,18 @@
       },
       "system": "daggerheart",
       "flags": {}
+    },
+    {
+      "name": "guardiarines-items",
+      "label": "Guardiarines (Items)",
+      "path": "packs/guardiarines-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "daggerheart",
+      "flags": {}
     }
   ],
   "relationships": {
