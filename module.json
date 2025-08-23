@@ -12,7 +12,7 @@
   "packs": [
     {
       "name": "guardiarines-ancestry",
-      "label": "Guardiarines (Ancestry)",
+      "label": "Ancestry (Guardiarines)",
       "path": "packs/guardiarines-ancestry",
       "type": "Item",
       "ownership": {
@@ -24,9 +24,81 @@
     },
     {
       "name": "guardiarines-items",
-      "label": "Guardiarines (Items)",
+      "label": "Items (Guardiarines)",
       "path": "packs/guardiarines-items",
       "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "daggerheart",
+      "flags": {}
+    },
+    {
+      "name": "casas-nobles",
+      "label": "Casas nobles (Guardiarines)",
+      "path": "packs/casas-nobles",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "daggerheart",
+      "flags": {}
+    },
+    {
+      "name": "places",
+      "label": "Places (Guardiarines)",
+      "path": "packs/places",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "daggerheart",
+      "flags": {}
+    },
+    {
+      "name": "adversarios",
+      "label": "Adversarios (Guardiarines)",
+      "path": "packs/adversarios",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "daggerheart",
+      "flags": {}
+    },
+    {
+      "name": "actores",
+      "label": "Actores (Guardiarines)",
+      "path": "packs/actores",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "daggerheart",
+      "flags": {}
+    },
+    {
+      "name": "facciones",
+      "label": "Facciones (Guardiarines)",
+      "path": "packs/Facciones (Guardiarines)",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "daggerheart",
+      "flags": {}
+    },
+    {
+      "name": "journals-guardiarines",
+      "label": "Journals (Guardiarines)",
+      "path": "packs/journals-guardiarines",
+      "type": "JournalEntry",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
