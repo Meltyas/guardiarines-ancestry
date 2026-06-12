@@ -9,6 +9,9 @@
   "flags": {
     "canUpload": true
   },
+  "scripts": [
+    "scripts/guardiarines-main.js"
+  ],
   "packs": [
     {
       "name": "guardiarines-ancestry",
@@ -85,10 +88,22 @@
     {
       "name": "facciones",
       "label": "Facciones (Guardiarines)",
-      "path": "packs/Facciones (Guardiarines)",
+      "path": "packs/Facciones%20(Guardiarines)",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "daggerheart",
+      "flags": {}
+    },
+    {
+      "name": "guardiarines-community",
+      "label": "Community (Guardiarines)",
+      "path": "packs/guardiarines-community",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
       "system": "daggerheart",
